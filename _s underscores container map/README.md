@@ -5,17 +5,22 @@
 ```html
 <body>
   <div id="page" class="site">
-    <header id="masthead" class="site-header">Header</header>
-    <!-- #masthead -->
+    <header id="masthead" class="site-header">
+      Header
+    </header><!-- #masthead -->
 
-    <main id="primary" class="site-main">Main</main>
-    <!-- #main -->
+    <main id="primary" class="site-main">
+      Main
+    </main><!-- #main -->
 
-    <aside id="secondary" class="widget-area">Sidebar</aside>
-    <!-- #secondary -->
+    <aside id="secondary" class="widget-area">
+      Sidebar
+    </aside><!-- #secondary -->
 
-    <footer id="colophon" class="site-footer">Footer</footer>
-    <!-- #colophon -->
+    <footer id="colophon" class="site-footer">
+      Footer
+    </footer><!-- #colophon -->
+    
   </div>
 </body>
 ```
