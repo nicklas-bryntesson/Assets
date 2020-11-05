@@ -19,8 +19,7 @@
 
     <footer id="colophon" class="site-footer">
       Footer
-    </footer><!-- #colophon -->
-    
+    </footer><!-- #colophon --> 
   </div>
 </body>
 ```
@@ -30,27 +29,22 @@
 ```html
 <article class="hentry">
   <header class="entry-header">
-    <h2 class="entry-title">
-      <a>Post Title</a>
-    </h2>
+    <h1 class="entry-title">
+      Page Title
+    </h1>
+  </header><!-- .entry-header -->
 
-    <div class="entry-meta">Posted On</div>
-    <!-- .entry-meta -->
-  </header>
-  <!-- .entry-header -->
-
-  <div class="entry-content"></div>
-  <!-- .entry-content -->
+  <div class="entry-content">
+    Content
+  </div><!-- .entry-content -->
 
   <footer class="entry-footer">
     <span class="cat-links">Posted in <a>Categories</a></span>
     <span class="tags-link">Tagged <a>Tags</a></span>
-    <span class="comments-link"></span>
-    <span class="edit-link"></span>
-  </footer>
-  <!-- .entry-footer -->
-</article>
-<!-- .hentry -->
+    <span class="comments-link"><a>Post a comment</a></span>
+    <span class="edit-link"><a>Edit</a></span>
+  </footer><!-- .entry-footer -->
+</article><!-- .hentry -->
 ```
 
 ## Post container map
@@ -62,21 +56,20 @@
       <a>Post Title</a>
     </h2>
 
-    <div class="entry-meta">Posted On</div>
-    <!-- .entry-meta -->
-  </header>
-  <!-- .entry-header -->
+    <div class="entry-meta">
+      Posted On
+    </div><!-- .entry-meta -->
+  </header><!-- .entry-header -->
 
-  <div class="entry-content"></div>
-  <!-- .entry-content -->
+  <div class="entry-content">
+    Content
+  </div><!-- .entry-content -->
 
   <footer class="entry-footer">
     <span class="cat-links">Posted in <a>Categories</a></span>
     <span class="tags-link">Tagged <a>Tags</a></span>
     <span class="comments-link"></span>
     <span class="edit-link"></span>
-  </footer>
-  <!-- .entry-footer -->
-</article>
-<!-- .hentry -->
+  </footer><!-- .entry-footer -->
+</article><!-- .hentry -->
 ```
